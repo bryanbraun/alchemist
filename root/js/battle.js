@@ -1,0 +1,1 @@
+move(minion,hero,punch);

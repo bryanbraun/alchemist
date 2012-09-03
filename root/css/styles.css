@@ -1,0 +1,238 @@
+/* newgame styles */
+
+#newgame {
+position: absolute;
+width: 800px;
+height: 400px;
+z-index: 10;
+background-color: #FFF;
+}
+
+.newgame-button {
+width: 600px;
+height: 45px;
+background-color: #001C3A;
+color: #fff;
+font-weight: bold;
+font-size: 20pt;
+border: 2px solid #001124;
+margin: 20px auto;
+padding-top: 12px;
+text-align: center;
+border-radius: 30px;
+}
+
+div.newgame-button:hover {
+background-color: #FFFF33;
+color: #000;
+}
+
+#backstory {
+position: absolute;
+width: 700px;
+height: 400px;
+padding: 0 50px;
+z-index: 9;
+background-color: #FFF;  
+font-size: 10pt;
+}
+
+#backstory li {
+  list-style-type: none;
+}
+
+/* styles for game main console */
+
+#wrapper {
+position: relative;
+width: 800px;
+height: 400px;
+margin: 100px auto 0 auto;
+border: 1px solid black;
+}
+
+#map {
+background-image: url('../images/sand_tile.jpg');
+background-repeat: repeat;
+position: absolute;
+border: 1px solid black;
+width: 600px;
+height: 400px;
+top: 0;
+left: 200px;
+margin: -1px 0 0 0;
+}
+
+#hero-sprite {
+position: absolute;
+top: 90px;
+left: 170px;
+}
+
+#enemy-sprite {
+position: absolute;
+top: 90px;
+left: 215px;
+}
+
+/* left panel */
+
+#left-panel {
+background-color: #FFF;
+float: left;
+width: 200px;
+height: 400px;
+border: 1px solid black;
+margin: -1px;
+}
+
+#hero {
+margin: 0 25px 0 25px;
+}
+
+#hero-name {
+width: 100px;
+text-align: right;
+margin: -8px 0 10px 0;
+display: inline-block;
+}
+
+#hero-level {
+width: 50px;
+text-align: left;
+padding: 0 20px;
+display: inline-block;
+}
+
+.bar-wrapper {
+width: 170px;
+height: 30px;
+line-height: 30px;
+margin: 0 10px 10px 16px;
+}
+
+#hero-hp-bar {
+float: right;
+width: 130px;
+height: 28px;
+border: 1px solid black;
+box-shadow: 2px;
+}
+
+#hero-exp-bar {
+float: right;
+width: 130px;
+height: 28px;
+border: 1px solid black;
+box-shadow: 2px;
+}
+
+.hp-bar {
+height: 28px;
+background: #ff3236;
+background: -moz-linear-gradient(top, #ff3236 0%, #c92c2e 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff3236), color-stop(100%,#c92c2e));
+background: -webkit-linear-gradient(top, #ff3236 0%,#c92c2e 100%);
+background: -o-linear-gradient(top, #ff3236 0%,#c92c2e 100%);
+background: -ms-linear-gradient(top, #ff3236 0%,#c92c2e 100%);
+background: linear-gradient(to bottom, #ff3236 0%,#c92c2e 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3236', endColorstr='#c92c2e',GradientType=0 );
+}
+
+.exp-bar {
+height: 28px;
+background: #36c440;
+background: -moz-linear-gradient(top, #36c440 0%, #31a318 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#36c440), color-stop(100%,#31a318));
+background: -webkit-linear-gradient(top, #36c440 0%,#31a318 100%);
+background: -o-linear-gradient(top, #36c440 0%,#31a318 100%);
+background: -ms-linear-gradient(top, #36c440 0%,#31a318 100%);
+background: linear-gradient(to bottom, #36c440 0%,#31a318 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36c440', endColorstr='#31a318',GradientType=0 );
+}
+
+/* right panel */
+
+#right-panel {
+background-color: #FFF;
+float: right;
+width: 200px;
+height: 400px;
+border: 1px solid black;
+margin: -1px;
+}
+
+#enemy {
+margin: 0 15px 0 15px;
+}
+
+#enemy-name {
+width: 100px;
+text-align: right;
+margin: -8px 0 10px 0;
+display: inline-block;
+}
+
+#enemy-level {
+width: 50px;
+text-align: left;
+padding: 0 20px;
+display: inline-block;
+}
+
+#enemy-hp-bar {
+float: right;
+width: 130px;
+height: 28px;
+border: 1px solid black;
+box-shadow: 2px;
+}
+
+/* bottom panel */
+.bottom-panel-wrapper {
+position: absolute;
+background-color: #EEE;
+top: 250px;
+left: 0px;
+width: 339px;
+height: 90px;
+border: 1px solid black;
+margin: -1px 0 -1px -1px;
+padding: 30px;
+}
+
+.small-button {
+/* class is used for dialog box, or other buttons */
+border: 1px solid #888;
+background-color: #CDCDCD;
+border-radius: 6px;
+width: 100px;
+height: 30px;
+padding-top: 8px;
+margin: 10px auto 0;
+clear: both;
+text-align: center;
+}
+
+.menu-option {
+background-color: #CCC;
+font-size: 10pt;
+padding: 3px;
+margin-bottom: 5px;
+}
+
+/* universal styles */
+
+.image-center  {
+  display: block;
+  margin: 0 auto;
+}
+
+.hide {
+display: none;
+}
+
+.promote {
+display: block;
+z-index: 50;
+}

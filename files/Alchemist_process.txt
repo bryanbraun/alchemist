@@ -1,0 +1,18 @@
+Alchemist process
+
+1. Build start screen
+
+
+
+2. Options for game environment:
+  - sidescrolling 1D
+  - sidescrolling 1D preset (like oregon trail)
+  - 2D overhead (like pokemon or zelda)
+  - sidescrolling 2D (like castle crashers)
+  - text based
+  - goes from event to event without direct control (like oregon trail - animation)
+  
+  - Technologies
+    - HTML5 canvas
+	- the DOM
+	- a game engine like crafty.js (simplifies some things and obscures others)
